@@ -3,6 +3,13 @@ import { ReactElement } from "react";
 
 import data from "./data.json";
 
+function NewlineText(props) {
+  const text = props.text;
+  const newText = text.split("\n").map((str) => <p>{str}</p>);
+
+  return newText;
+}
+
 export default function App() {
   const [selectedCompanyId, selectCompanyId] = useState("");
 
@@ -52,7 +59,9 @@ export default function App() {
                 ))}
               </ul>
             </div>
-            <div className="address">{selectedCompany.address}</div>
+            <div className="address">
+              <NewlineText text={selectedCompany.address}></NewlineText>
+            </div>
             <div className="map">
               <iframe
                 width="600"

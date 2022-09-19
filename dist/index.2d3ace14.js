@@ -27092,6 +27092,18 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _dataJson = require("./data.json");
 var _dataJsonDefault = parcelHelpers.interopDefault(_dataJson);
 var _s = $RefreshSig$();
+function NewlineText(props) {
+    const text = props.text;
+    const newText = text.split("\n").map((str)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            children: str
+        }, void 0, false, {
+            fileName: "src/App.tsx",
+            lineNumber: 8,
+            columnNumber: 49
+        }, this));
+    return newText;
+}
+_c = NewlineText;
 function App() {
     _s();
     const [selectedCompanyId, selectCompanyId] = (0, _react.useState)("");
@@ -27107,7 +27119,7 @@ function App() {
             children: company.name
         }, void 0, false, {
             fileName: "src/App.tsx",
-            lineNumber: 15,
+            lineNumber: 22,
             columnNumber: 7
         }, this));
     }
@@ -27129,7 +27141,7 @@ function App() {
                             children: selectedCompany.name
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 39,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27139,18 +27151,18 @@ function App() {
                                 alt: selectedCompany.name + "'s logo"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 41,
+                                lineNumber: 48,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 40,
+                            lineNumber: 47,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.tsx",
-                    lineNumber: 38,
+                    lineNumber: 45,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27163,25 +27175,31 @@ function App() {
                                         children: el
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 58,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 49,
+                                lineNumber: 56,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 48,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "address",
-                            children: selectedCompany.address
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(NewlineText, {
+                                text: selectedCompany.address
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 63,
+                                columnNumber: 15
+                            }, this)
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 55,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27195,29 +27213,29 @@ function App() {
                                 allowFullScreen: true
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 57,
+                                lineNumber: 66,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 56,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.tsx",
-                    lineNumber: 47,
+                    lineNumber: 54,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/App.tsx",
-            lineNumber: 37,
+            lineNumber: 44,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/App.tsx",
-        lineNumber: 30,
+        lineNumber: 37,
         columnNumber: 7
     }, this);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
@@ -27227,7 +27245,7 @@ function App() {
                 children: "Partnerzy ZST"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 74,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27235,21 +27253,22 @@ function App() {
                 children: cardsDOM
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 75,
+                lineNumber: 84,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 72,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }
 exports.default = App;
 _s(App, "8zHWt449RRgoUUQAPGGfcI79n18=");
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
+_c1 = App;
+var _c, _c1;
+$RefreshReg$(_c, "NewlineText");
+$RefreshReg$(_c1, "App");
 
   $parcel$ReactRefreshHelpers$0342.postlude(module);
 } finally {

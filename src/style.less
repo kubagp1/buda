@@ -55,9 +55,8 @@ header {
 
 .popupContainer {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   position: fixed;
-  offset: 0 0;
   z-index: 10000;
 
   background-color: #000000aa;
@@ -67,16 +66,19 @@ header {
     height: 90vh;
     margin: 5vh 5vw;
 
+    overflow: scroll;
+
     padding: 20px;
 
     background-color: white;
 
     & > .topRow {
-      height: 100px;
+      min-height: 100px;
       
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
 
       & > .name {
         font-size: 65px;
@@ -92,6 +94,10 @@ header {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+
+      & > .map > iframe {
+        max-width: 90%;
+      }
     }
   }
 }

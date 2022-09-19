@@ -49,8 +49,7 @@ header {
 
 .popupContainer {
   width: 100vw;
-  height: 100vw;
-  offset: 0 0;
+  height: 100vh;
   z-index: 10000;
   background-color: #000a;
   position: fixed;
@@ -62,10 +61,12 @@ header {
   background-color: #fff;
   margin: 5vh 5vw;
   padding: 20px;
+  overflow: scroll;
 }
 
 .popupContainer > .popup > .topRow {
-  height: 100px;
+  min-height: 100px;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -84,6 +85,10 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   display: flex;
+}
+
+.popupContainer > .popup > .bottomRow > .map > iframe {
+  max-width: 90%;
 }
 
 /*# sourceMappingURL=index.cd7b88cc.css.map */
