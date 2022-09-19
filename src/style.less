@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --zst-backround: #03a9f4;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding-top: 12vh;
+  padding-bottom: 8vh;
+
+  font-size: 8vh;
+  font-weight: lighter;
+  text-align: center;
+
+  background-color: var(--zst-backround);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 24px;
+
+  & > .card {
+    background-color: var(--zst-backround);
+
+    height: 300px;
+    flex: 1 1 auto;
+    padding-inline: 60px;
+
+    font-size: 32px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 200ms;
+    cursor: pointer;
+
+    &:hover {
+      scale: 105%;
+    }
+  }
+}
+
+.popupContainer {
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  offset: 0 0;
+  z-index: 10000;
+
+  background-color: #000000aa;
+
+  & > .popup {
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh 5vw;
+
+    padding: 20px;
+
+    background-color: white;
+
+    & > .topRow {
+      height: 100px;
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & > .name {
+        font-size: 65px;
+      }
+
+      & > .logo > img {
+        height: 95px;
+        width: auto;        
+      }
+    }
+
+    & > .bottomRow {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "1": {
+    "name": "Microsoft",
+    "picture": "https://www.bobr.edu.pl/wp-content/uploads/2019/03/Microsoft-Logo.jpg",
+    "compatibleWith": [
+      "Technik informatyk",
+      "Technik programista"
+    ],
+    "address": "Al. Jerozolimskie 195a\n02-222 Warszawa\nPoland\nTel.: (+48) 22-594 1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12787.00431572808!2d-122.13286415219103!3d47.642913792251264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d24ed4b138b%3A0x951444fa821070b3!2sMicrosoft%20Corporate%20Headquarters!5e0!3m2!1spl!2spl!4v1663622368690!5m2!1spl!2spl"
+  },
+  "2": {
+    "name": "Microsoft 2",
+    "picture": "https://www.bobr.edu.pl/wp-content/uploads/2019/03/Microsoft-Logo.jpg",
+    "compatibleWith": [
+      "Technik informatyk 2",
+      "Technik programista 2"
+    ],
+    "address": "Al. Jerozolimskie 195a\n02-222 Warszawa\nPoland\nTel.: (+48) 22-594 1000 2",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12787.00431572808!2d-122.13286415219103!3d47.642913792251264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d24ed4b138b%3A0x951444fa821070b3!2sMicrosoft%20Corporate%20Headquarters!5e0!3m2!1spl!2spl!4v1663622368690!5m2!1spl!2spl"
+  }
+}

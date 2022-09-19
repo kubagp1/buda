@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --zst-backround: #03a9f4;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: var(--zst-backround);
+  color: #fff;
+  padding-top: 12vh;
+  padding-bottom: 8vh;
+  font-size: 8vh;
+  font-weight: lighter;
+}
+
+.container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 24px;
+  display: flex;
+}
+
+.container > .card {
+  background-color: var(--zst-backround);
+  height: 300px;
+  color: #fff;
+  cursor: pointer;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 60px;
+  font-size: 32px;
+  transition: all .2s;
+  display: flex;
+}
+
+.container > .card:hover {
+  scale: 105%;
+}
+
+.popupContainer {
+  width: 100vw;
+  height: 100vw;
+  offset: 0 0;
+  z-index: 10000;
+  background-color: #000a;
+  position: fixed;
+}
+
+.popupContainer > .popup {
+  width: 90vw;
+  height: 90vh;
+  background-color: #fff;
+  margin: 5vh 5vw;
+  padding: 20px;
+}
+
+.popupContainer > .popup > .topRow {
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.popupContainer > .popup > .topRow > .name {
+  font-size: 65px;
+}
+
+.popupContainer > .popup > .topRow > .logo > img {
+  height: 95px;
+  width: auto;
+}
+
+.popupContainer > .popup > .bottomRow {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.cd7b88cc.css.map */
